@@ -31,12 +31,13 @@ namespace Lab3
 	public struct UIInfo
 	{
 		string from, to;
+        int amount;
 		UIClass cls;
 		UIWay way;
 		UIDiscount discount;
 		UIPayment payment;
 
-		public UIInfo (string from, string to, UIClass cls, UIWay way, UIDiscount discount, UIPayment payment)
+		public UIInfo (string from, string to, UIClass cls, UIWay way, UIDiscount discount, UIPayment payment, int amount = 1)
 		{
 			this.from = from;
 			this.to = to;
@@ -44,7 +45,15 @@ namespace Lab3
 			this.way = way;
 			this.discount = discount;
 			this.payment = payment;
+            this.amount = amount;
 		}
+
+        public int Amount{
+            get{
+                return amount;
+            }
+
+        }
 
 		public string From {
 			get {

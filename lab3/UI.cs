@@ -23,7 +23,84 @@ namespace Lab3
 			initializeControls ();
 		}
 
-		private void handlePayment(UIInfo info)
+        private int calcColumn(UIInfo info)
+        {
+
+            // Compute the column in the table based on choices
+            int tableColumn;
+            // First based on class
+            switch (info.Class)
+            {
+                case UIClass.FirstClass:
+                    tableColumn = 3;
+                    break;
+                default:
+                    tableColumn = 0;
+                    break;
+            }
+            // Then, on the discount
+            switch (info.Discount)
+            {
+                case UIDiscount.TwentyDiscount:
+                    tableColumn += 1;
+                    break;
+                case UIDiscount.FortyDiscount:
+                    tableColumn += 2;
+                    break;
+            }
+
+            return tableColumn;
+        }
+
+        private float calPrice(UIInfo info)
+        {
+            // Get number of tariefeenheden
+            int tariefeenheden = Tariefeenheden.getTariefeenheden(info.From, info.To);
+
+            // Get price
+            float price = PricingTable.getPrice(tariefeenheden, calcColumn(info));
+            if (info.Way == UIWay.Return)
+            {
+                price *= 2;
+            }
+            // Add 50 cent if paying with credit card
+            if (info.Payment == UIPayment.CreditCard)
+            {
+                price += 0.50f;
+            }
+
+            price *= info.Amount;
+
+            return price;
+        }
+
+        private void Pay(UIInfo info)
+        {
+            float price = calPrice(info);
+            switch (info.Payment)
+            {
+                case UIPayment.CreditCard:
+                    CreditCard c = new CreditCard();
+                    c.Connect();
+                    int ccid = c.BeginTransaction(price);
+                    c.EndTransaction(ccid);
+                    break;
+                case UIPayment.DebitCard:
+                    DebitCard d = new DebitCard();
+                    d.Connect();
+                    int dcid = d.BeginTransaction(price);
+                    d.EndTransaction(dcid);
+                    break;
+                case UIPayment.Cash:
+                    IKEAMyntAtare2000 coin = new IKEAMyntAtare2000();
+                    coin.starta();
+                    coin.betala((int)Math.Round(price * 100));
+                    coin.stoppa();
+                    break;
+            }
+        }
+
+		/*private void handlePayment(UIInfo info)
 		{
 			// *************************************
 			// This is the code you need to refactor
@@ -32,8 +109,9 @@ namespace Lab3
 			// Get number of tariefeenheden
 			int tariefeenheden = Tariefeenheden.getTariefeenheden (info.From, info.To);
 
-			// Compute the column in the table based on choices
-			int tableColumn;
+            #region calcColumn
+            // Compute the column in the table based on choices
+            int tableColumn;
 			// First based on class
 			switch (info.Class) {
 			case UIClass.FirstClass:
@@ -52,9 +130,11 @@ namespace Lab3
 				tableColumn += 2;
 				break;
 			}
+            #endregion
 
-			// Get price
-			float price = PricingTable.getPrice (tariefeenheden, tableColumn);
+            #region calcPrice
+            // Get price
+            float price = PricingTable.getPrice (tariefeenheden, tableColumn);
 			if (info.Way == UIWay.Return) {
 				price *= 2;
 			}
@@ -62,9 +142,12 @@ namespace Lab3
 			if (info.Payment == UIPayment.CreditCard) {
 				price += 0.50f;
 			}
+            #endregion
 
-			// Pay
-			switch (info.Payment) {
+            #region pay
+
+            // Pay
+            switch (info.Payment) {
 			case UIPayment.CreditCard:
 				CreditCard c = new CreditCard ();
 				c.Connect ();
@@ -84,10 +167,11 @@ namespace Lab3
 				coin.stoppa ();
 				break;
 			}
-		}
+            #endregion
+        }*/
 
-#region Set-up -- don't look at it
-		private void initializeControls()
+        #region Set-up -- don't look at it
+        private void initializeControls()
 		{
 			// Set label
 			this.Text = "MSO Lab Exercise III";
@@ -212,7 +296,7 @@ namespace Lab3
 			grid.Controls.Add (pay, 0, 3);
 			grid.SetColumnSpan (pay, 6);
 			// Set up event
-			pay.Click += (object sender, EventArgs e) => handlePayment(getUIInfo());
+			pay.Click += (object sender, EventArgs e) => Pay(getUIInfo());
 		}
 
 		private UIInfo getUIInfo()
@@ -254,7 +338,19 @@ namespace Lab3
 				(string)toBox.SelectedItem,
 				cls, way, dis, pment);
 		}
-#endregion
+		#endregion
+
+		private void InitializeComponent()
+		{
+			this.SuspendLayout();
+			// 
+			// UI
+			// 
+			this.ClientSize = new System.Drawing.Size(565, 532);
+			this.Name = "UI";
+			this.ResumeLayout(false);
+
+		}
 	}
 }
 
