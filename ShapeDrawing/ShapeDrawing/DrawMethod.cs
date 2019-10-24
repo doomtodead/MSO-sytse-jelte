@@ -10,7 +10,7 @@ namespace ShapeDrawing
     public interface DrawMethod
     {
         void Line(int[] points);
-        void Circle(int x, int y, int d, int d1);
+        void Circle(int x, int y, int d);
     }
 
     public class WindowsForm : DrawMethod
@@ -22,9 +22,9 @@ namespace ShapeDrawing
             graphics.DrawLine(pen, points[0], points[1], points[2], points[3]);
         }
 
-        public void Circle(int x, int y, int d, int d1)
+        public void Circle(int x, int y, int d)
         {
-            graphics.DrawEllipse(pen, x, y, d, d1);
+            graphics.DrawEllipse(pen, x, y, d, d);
         }        
     }
 
@@ -43,7 +43,7 @@ namespace ShapeDrawing
             streamWriter.WriteLine("        style=\"fill: none; stroke: black; stroke - width:1\" />");
         }
 
-        public void Circle(int x, int y, int d, int d1)
+        public void Circle(int x, int y, int d)
         {
             streamWriter.WriteLine("    <circle cx="+ x +" cy ="+ y +" r =" + d + " stroke-width=\"1\" fill=\"none\" stroke=\"black\" />");
         }

@@ -21,7 +21,7 @@ class Circle : Shape
 
     public override void Draw(DrawMethod Canvas)
     {
-        Canvas.Circle(this.x, this.y, this.size, this.size);
+        Canvas.Circle(x, y, size);
     }
 
 }

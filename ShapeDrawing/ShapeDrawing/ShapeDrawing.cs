@@ -17,12 +17,12 @@ public class ShapeDrawingForm : Form
 
         ToolStripDropDownItem menu;
         menu = new ToolStripMenuItem("File");
-		menu.DropDownItems.Add("Open...", null, this.openFileHandler);
-		menu.DropDownItems.Add("Export...", null, this.exportHandler);
-        menu.DropDownItems.Add("Exit", null, this.closeHandler);
+		menu.DropDownItems.Add("Open...", null, openFileHandler);
+		menu.DropDownItems.Add("Export...", null, exportHandler);
+        menu.DropDownItems.Add("Exit", null, closeHandler);
         menuStrip.Items.Add(menu);
 
-        this.Controls.Add(menuStrip);
+        Controls.Add(menuStrip);
 		// Some basic settings
 		Text = "Shape Drawing and Converter";
 		Size = new Size(400, 400);
@@ -33,13 +33,13 @@ public class ShapeDrawingForm : Form
         shapes = new List<Shape>();
 		
 		// Listen to Paint event to draw shapes
-		this.Paint += new PaintEventHandler(this.OnPaint); 
+		Paint += new PaintEventHandler(OnPaint); 
 	}
 
     // What to do when the user closes the program
     private void closeHandler(object sender, EventArgs e)
     {
-        this.Close();
+        Close();
     }
 
     // What to do when the user opens a file
@@ -51,7 +51,7 @@ public class ShapeDrawingForm : Form
         if (dialog.ShowDialog() == DialogResult.OK)
         {
             shapes = Parser.ParseShapes(dialog.FileName);
-            this.Refresh();
+            Refresh();
         }
 
     }
