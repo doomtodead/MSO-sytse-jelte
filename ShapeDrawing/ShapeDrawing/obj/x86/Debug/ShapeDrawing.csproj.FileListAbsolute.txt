@@ -13,3 +13,10 @@ C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Deb
 C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.pdb
 C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.exe
 C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.pdb
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csprojAssemblyReference.cache
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.Properties.Resources.resources
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csproj.GenerateResource.cache
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.exe
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.pdb
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.exe
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.pdb

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Drawing;
+using System.IO;
 
 namespace ShapeDrawing
 {
     public interface DrawMethod
     {
-        void Line(int x1, int y1, int x2, int y2);
+        void Line(int[] points);
         void Circle(int x, int y, int d, int d1);
     }
 
@@ -16,9 +17,9 @@ namespace ShapeDrawing
     {
         Pen pen = new Pen(Color.Black);
         public Graphics graphics; 
-        public void Line(int x1, int y1, int x2, int y2)
+        public void Line(int[] points)
         {
-            graphics.DrawLine(pen,x1,y1,x2,y2);
+            graphics.DrawLine(pen, points[0], points[1], points[2], points[3]);
         }
 
         public void Circle(int x, int y, int d, int d1)
@@ -29,9 +30,16 @@ namespace ShapeDrawing
 
     public class GenerateSVG : DrawMethod
     {
-        public void Line(int x1, int y1, int x2, int y2)
+        public StreamWriter streamWriter;
+        public void Line(int[] points)
         {
-
+            string cords = "";
+            for (int i = 0; i <= points.Length - 1; i += 2) 
+            {
+                cords += points[i].ToString() + points[i + 1].ToString();
+            }
+            cords += points[1].ToString() + points[2].ToString();
+            streamWriter.WriteLine(" polyline points = \" " + cords + "\"");
         }
 
         public void Circle(int x, int y, int d, int d1)

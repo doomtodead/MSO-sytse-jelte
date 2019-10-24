@@ -44,10 +44,10 @@ public class Star : Shape
 
 		for (i = 0; i < numPoints; i++) 
 		{
-			Canvas.Line(pts[i].X,
-                                pts[i].Y,
-                                pts[(i+1) % numPoints].X,
-                                pts[(i+1) % numPoints].Y);
+			Canvas.Line(new int[] {pts[i].X,
+                                    pts[i].Y,
+                                    pts[(i+1) % numPoints].X,
+                                    pts[(i+1) % numPoints].Y});
 		}
 		
 	}
