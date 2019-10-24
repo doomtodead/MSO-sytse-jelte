@@ -1,0 +1,7 @@
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.exe
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.pdb
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csprojAssemblyReference.cache
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.Properties.Resources.resources
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csproj.GenerateResource.cache
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.exe
+C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.pdb
