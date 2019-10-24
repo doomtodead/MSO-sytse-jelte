@@ -4,12 +4,13 @@ using System.Text;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Collections.Generic;
+using ShapeDrawing;
 
 public class ShapeDrawingForm : Form
 {
 	private List<Shape> shapes;
 
-	public ShapeDrawingForm()
+	public ShapeDrawingForm() 
 	{
         MenuStrip menuStrip;
         menuStrip = new MenuStrip();
@@ -61,14 +62,14 @@ public class ShapeDrawingForm : Form
 		Stream stream;
 		SaveFileDialog saveFileDialog = new SaveFileDialog();
 
-		saveFileDialog.Filter = "TeX files|(*.tex)";
+		saveFileDialog.Filter = "TeX files|*.svg";
 		saveFileDialog.RestoreDirectory = true;
 		
 		if(saveFileDialog.ShowDialog() == DialogResult.OK)
 		{
 			if((stream = saveFileDialog.OpenFile()) != null)
 			{
-				// Insert code here that generates the string of LaTeX
+				// Insert code here that generates the string of SVG
                 //   commands to draw the shapes
                 using(StreamWriter writer = new StreamWriter(stream))
                 {
@@ -81,8 +82,10 @@ public class ShapeDrawingForm : Form
 
     private void OnPaint(object sender, PaintEventArgs e)
 	{
-		// Draw all the shapes
+        // Draw all the shapes
+        WindowsForm wf = new WindowsForm();
+        wf.graphics = e.Graphics;
 		foreach(Shape shape in shapes)
-			shape.Draw(e.Graphics);
+			shape.Draw(wf);
 	}
 }

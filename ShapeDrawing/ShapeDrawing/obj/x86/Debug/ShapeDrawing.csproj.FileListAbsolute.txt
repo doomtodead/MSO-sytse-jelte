@@ -5,3 +5,11 @@ C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\Sha
 C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csproj.GenerateResource.cache
 C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.exe
 C:\Users\sytse\Downloads\mso-master\mso-master\labs\assignment4\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csprojAssemblyReference.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.Properties.Resources.resources
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csproj.GenerateResource.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.csproj.CoreCompileInputs.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.exe
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\obj\x86\Debug\ShapeDrawing.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.exe
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\ShapeDrawing\ShapeDrawing\bin\Debug\ShapeDrawing.pdb

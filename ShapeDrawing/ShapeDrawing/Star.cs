@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ShapeDrawing;
 
 public class Star : Shape
 {
@@ -20,9 +21,8 @@ public class Star : Shape
 		this.height = height;
 	}
 
-	public override void Draw (Graphics Canvas)
+	public override void Draw(DrawMethod Canvas)
 	{
-		Pen pen = new Pen (Color.Black);
 
 		int numPoints = 5;
 		Point[] pts = new Point[numPoints];
@@ -44,7 +44,7 @@ public class Star : Shape
 
 		for (i = 0; i < numPoints; i++) 
 		{
-			Canvas.DrawLine(pen,pts[i].X,
+			Canvas.Line(pts[i].X,
                                 pts[i].Y,
                                 pts[(i+1) % numPoints].X,
                                 pts[(i+1) % numPoints].Y);
