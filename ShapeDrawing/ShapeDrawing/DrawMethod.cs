@@ -39,12 +39,13 @@ namespace ShapeDrawing
                 cords += points[i].ToString() + points[i + 1].ToString();
             }
             cords += points[1].ToString() + points[2].ToString();
-            streamWriter.WriteLine(" polyline points = \" " + cords + "\"");
+            streamWriter.WriteLine("    <polyline points = \" " + cords + "\"");
+            streamWriter.WriteLine("        style=\"fill: none; stroke: black; stroke - width:1\" />");
         }
 
         public void Circle(int x, int y, int d, int d1)
         {
-
+            streamWriter.WriteLine("    <circle cx="+ x +" cy ="+ y +" r =" + d + " stroke-width=\"1\" fill=\"none\" stroke=\"black\" />");
         }
     }
 }

@@ -73,7 +73,7 @@ public class ShapeDrawingForm : Form
                 //   commands to draw the shapes
                 using(StreamWriter writer = new StreamWriter(stream))
                 {
-                    GenerateSVG generateSVG = new GenerateSVG() { stringWriter = writer };
+                    GenerateSVG generateSVG = new GenerateSVG() { streamWriter = writer };
                         // Write strings to the file here using:
                         //   writer.WriteLine("Hello World!");
                 }				
