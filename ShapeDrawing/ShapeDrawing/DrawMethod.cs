@@ -31,21 +31,16 @@ namespace ShapeDrawing
     public class GenerateSVG : DrawMethod
     {
         public StreamWriter streamWriter;
-        public void Line(int[] points)
+        public void Line(int[] Points)
         {
-            string cords = "";
-            for (int i = 0; i <= points.Length - 1; i += 2) 
-            {
-                cords += points[i].ToString() + points[i + 1].ToString();
-            }
-            cords += points[1].ToString() + points[2].ToString();
-            streamWriter.WriteLine("    <polyline points = \" " + cords + "\"");
+            int[] points = Points;
+            streamWriter.WriteLine("    <polyline points = \"" + points[0].ToString() + "," + points[1].ToString() + "," + points[2].ToString() + "," + points[3].ToString() + "\"");
             streamWriter.WriteLine("        style=\"fill: none; stroke: black; stroke - width:1\" />");
         }
 
         public void Circle(int x, int y, int d)
         {
-            streamWriter.WriteLine("    <circle cx="+ x +" cy ="+ y +" r =" + d + " stroke-width=\"1\" fill=\"none\" stroke=\"black\" />");
+            streamWriter.WriteLine("    <circle cx=\""+ (x + (d/2)) + "\" cy =\"" + (y + (d / 2)) + "\" r =\"" + (d/2) + "\" stroke-width=\"1\" fill=\"none\" stroke=\"black\" />");
         }
     }
 }

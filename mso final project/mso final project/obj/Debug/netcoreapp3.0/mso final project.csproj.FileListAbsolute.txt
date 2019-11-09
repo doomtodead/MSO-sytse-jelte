@@ -1,0 +1,11 @@
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.exe
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.deps.json
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.runtimeconfig.json
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.runtimeconfig.dev.json
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.dll
+C:\Users\sytse\source\repos\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.pdb
+C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.csprojAssemblyReference.cache
+C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.AssemblyInfoInputs.cache
+C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.AssemblyInfo.cs
+C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.dll
+C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.pdb
