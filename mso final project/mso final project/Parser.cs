@@ -4,7 +4,7 @@ using System.Text;
 
 namespace mso_final_project
 {
-    class Parser
+    public class Parser
     {
         String filePath;
         List<string[]> descriptions = new List<string[]>();

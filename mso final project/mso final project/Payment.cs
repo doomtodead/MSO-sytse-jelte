@@ -9,7 +9,7 @@ namespace mso_final_project
         void HandleOrder(Product product); 
     }
 
-    class Payment
+    public class Payment
     {
         public bool handlePayment(float price)
         {

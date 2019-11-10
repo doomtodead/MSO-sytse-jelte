@@ -20,7 +20,7 @@ namespace mso_final_project
             string response = Console.ReadLine();
             if (response == "cart")
             {
-                ui.ShowCart();
+                UI.ShowCart();
                 string response2 = Console.ReadLine();
 
                 if (response2 == "back")

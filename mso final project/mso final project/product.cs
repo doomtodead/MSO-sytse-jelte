@@ -4,7 +4,7 @@ using System.Text;
 
 namespace mso_final_project
 {
-    class Product
+    public class Product
     {
         public string name;
         public string description;

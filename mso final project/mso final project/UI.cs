@@ -4,11 +4,11 @@ using System.Text;
 
 namespace mso_final_project
 {
-    class UI
+    public class UI
     {
-        List<Product> cart = new List<Product>();
+        public static List<Product> cart = new List<Product>();
         Parser parser = new Parser();
-        float totalPrice = 0;
+        public static float totalPrice = 0;
         public UI()
         {
 
@@ -22,7 +22,13 @@ namespace mso_final_project
         }
         public void SelectProduct(int number)
         {
-            ShowProductDescription (parser.allProducts[number - 1].name);
+            if (number < parser.allProducts.Count)
+                ShowProductDescription(parser.allProducts[number - 1].name);
+            else
+            {
+                Console.WriteLine("That is not a product");
+                Program.ProductSelection(this);
+            }
            
         }
         public void ShowAllProducts()
@@ -52,7 +58,7 @@ namespace mso_final_project
             }
         }
 
-        public void ShowCart()
+        public static void ShowCart()
         {
             
             Console.WriteLine("-------------------------------");
@@ -68,7 +74,7 @@ namespace mso_final_project
             Option();
         }
 
-        public void Option()
+        public static void Option()
         {
             Console.WriteLine("Enter back to continue shopping or checkout to go to checkout");
             
