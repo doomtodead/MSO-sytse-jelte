@@ -15,10 +15,10 @@ namespace mso_final_project
         {
             Console.WriteLine("Price to pay is " + price);
             Console.WriteLine("Handeling the payment bliepbloep");
-            Console.WriteLine("Type succes or fail to make the payment either succeed or fail");
+            Console.WriteLine("Type success or fail to make the payment either succeed or fail");
             string response = Console.ReadLine();
 
-            if (response == "succes")
+            if (response == "success")
             {
                 return true;
             }

@@ -43,7 +43,7 @@ namespace mso_final_project
             Console.WriteLine("Description: " + product.description);
             Console.WriteLine("Price: " + product.price);
 
-            Console.WriteLine("type add followed by a number to add that amount of the product to your cart");
+            Console.WriteLine("type add followed by a number to add that amount of the product to your cart or back to select another products");
             string response = Console.ReadLine();
             string[] newProduct = response.Split(' ');
             if (newProduct[0] == "add")
