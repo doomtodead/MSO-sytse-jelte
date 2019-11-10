@@ -79,17 +79,29 @@ namespace mso_final_project
             Payment payment = new Payment();
             if (payment.handlePayment(totalPrice))
             {
-                foreach(Product product in cart)
+                string name;
+                Console.WriteLine("Please enter your name");
+                name = Console.ReadLine();
+                List<Product> digitalProducts = new List<Product>();
+                List<Product> physicalProducts = new List<Product>();
+                ShippingMethod digitalShipper = new HandleOrderDigital();
+                ShippingMethod physicalShipper = new HandleOrderPhysical();
+                foreach (Product product in cart)
                 {
                     if(product.GetType() == typeof(DigitalProduct))
                     {
-
+                        digitalProducts.Add(product);
                     } 
-                    else
+                    else if(product.GetType() == typeof(PhysicalProduct))
                     {
-
-                    }
+                        physicalProducts.Add(product);
+                    }                    
                 }
+                if(digitalProducts.Count != 0)
+                    digitalShipper.HandleOrder(digitalProducts, name);
+
+                if (physicalProducts.Count != 0)
+                    physicalShipper.HandleOrder(physicalProducts, name);
                 cart.Clear();
                 totalPrice = 0;
             }
