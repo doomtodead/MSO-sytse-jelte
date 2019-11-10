@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sytse\\.nuget\\packages\\": {}
+    "C:\\Users\\jelte\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sytse\\source\\repos\\mso final project\\mso final project\\mso final project.csproj",
+      "projectUniqueName": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj",
       "projectName": "mso final project",
-      "projectPath": "C:\\Users\\sytse\\source\\repos\\mso final project\\mso final project\\mso final project.csproj",
-      "packagesPath": "C:\\Users\\sytse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sytse\\source\\repos\\mso final project\\mso final project\\obj\\",
+      "projectPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj",
+      "packagesPath": "C:\\Users\\jelte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sytse\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jelte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

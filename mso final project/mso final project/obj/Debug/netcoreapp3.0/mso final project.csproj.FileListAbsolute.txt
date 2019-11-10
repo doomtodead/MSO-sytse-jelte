@@ -9,3 +9,14 @@ C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcor
 C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.AssemblyInfo.cs
 C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.dll
 C:\Users\sytse\source\repos\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.exe
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.deps.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.runtimeconfig.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.runtimeconfig.dev.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.dll
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\bin\Debug\netcoreapp3.0\mso final project.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.csprojAssemblyReference.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.AssemblyInfoInputs.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.AssemblyInfo.cs
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.dll
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\mso final project\mso final project\obj\Debug\netcoreapp3.0\mso final project.pdb
