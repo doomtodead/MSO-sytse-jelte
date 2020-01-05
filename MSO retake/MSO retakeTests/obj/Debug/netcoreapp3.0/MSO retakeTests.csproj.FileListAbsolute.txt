@@ -1,0 +1,3 @@
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\MSO retake\MSO retakeTests\obj\Debug\netcoreapp3.0\MSO retakeTests.csprojAssemblyReference.cache
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\MSO retake\MSO retakeTests\obj\Debug\netcoreapp3.0\MSO retakeTests.AssemblyInfoInputs.cache
+C:\Users\sytse\Documents\GitHub\MSO-sytse-jelte\MSO retake\MSO retakeTests\obj\Debug\netcoreapp3.0\MSO retakeTests.AssemblyInfo.cs
