@@ -7,18 +7,18 @@ namespace MSO_Retake
     public class View
     {
         Parser parser = new Parser();
-        public void PrintCart(List<Product> cart)
+        public void PrintCart(CartModel cart)
         {
             float totalPrice = 0;
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Your Cart:");
-            foreach (Product product in cart)
+            foreach (Product product in cart.ReturnCart())
             {
                 Console.WriteLine(product.name + " $" + product.price);
                 totalPrice += product.price;
             }
             Console.WriteLine("-------------------------------");
-            Console.WriteLine("Total: $" + totalPrice);
+            Console.WriteLine("Total: $" + cart.GetTotal().ToString());
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Enter back to continue shopping or checkout to go to checkout\n");
         }

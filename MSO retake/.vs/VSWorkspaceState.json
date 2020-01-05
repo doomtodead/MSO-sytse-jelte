@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MSO retakeTests",
-    "\\OrderHandling"
+    "\\bin",
+    "\\obj"
   ],
-  "SelectedNode": "\\MSO retakeTests\\MSO retakeTests.csproj",
+  "SelectedNode": "\\MSO Retake.sln",
   "PreviewInSolutionExplorer": false
 }

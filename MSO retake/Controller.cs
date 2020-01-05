@@ -8,7 +8,7 @@ namespace MSO_Retake
     {
         private ShopModel shop;
         private CartModel cart;
-        private PaymentModel info;
+        public PaymentModel info;
         private View view;
 
         public Controller(ShopModel shop, CartModel cart, View view, PaymentModel info)
@@ -73,6 +73,15 @@ namespace MSO_Retake
             {
                 Console.WriteLine(product.name + " $" + product.price);
                 cart.SetTotal(cart.GetTotal() + product.price);
+
+                bool ContainsPhysical = false;
+                foreach (Product p in cart.ReturnCart())
+                {
+                    if (p.GetType() == typeof(PhysicalProduct))
+                        ContainsPhysical = true;
+                }
+                if (ContainsPhysical);
+                    cart.SetTotal(cart.GetTotal() + PhysicalProduct.shippingCosts);
             }         
         }
         
@@ -88,7 +97,7 @@ namespace MSO_Retake
 
         public void updateCart()
         {
-            view.PrintCart(cart.ReturnCart());
+            view.PrintCart(cart);
         }
 
         public void updateProduct(Product product)

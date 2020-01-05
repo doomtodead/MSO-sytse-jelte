@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MSO_Retake
 {
-    class PhysicalProduct : Product
+    public class PhysicalProduct : Product
     {
-        public float shippingCosts = 0.50f;
+        public static float shippingCosts = 0.50f;
         public PhysicalProduct(string name, string description, float price) : base(name, description, price)
         {
 

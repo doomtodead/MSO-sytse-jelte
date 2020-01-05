@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
+      "projectUniqueName": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
       "projectName": "MSO Retake",
-      "projectPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
-      "packagesPath": "C:\\Users\\jelte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\obj\\",
+      "projectPath": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
+      "packagesPath": "C:\\Users\\sytse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sytse\\AppData\\Roaming\\NuGet\\NuGet.Config",
