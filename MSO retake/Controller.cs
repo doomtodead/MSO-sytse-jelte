@@ -47,6 +47,11 @@ namespace MSO_Retake
             info.SetName(name);
         }
 
+        public string GetName()
+        {
+            return info.GetName();
+        }
+
         public void SetAdress(string adress)
         {
             info.SetAdress(adress);
@@ -55,6 +60,11 @@ namespace MSO_Retake
         public void SetEmail(string email)
         {
             info.SetEmail(email);
+        }
+
+        public string GetEmail()
+        {
+            return info.GetEmail();
         }
 
         public void SetTotal()

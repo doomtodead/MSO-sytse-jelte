@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MSO_Retake
 {
-    class DigitalProduct : Product
+    public class DigitalProduct : Product
     {
         public string link;
         public DigitalProduct(string name, string description, float price, string link) : base(name, description, price)

@@ -104,13 +104,19 @@ namespace MSO_Retake
                     physicalProducts.Add(product);
                 }
             }
+            EMail baseMail = new EMail(controller.GetName(), controller.GetEmail());
             if (digitalProducts.Count != 0) {
                 DigitalPayment digital = new DigitalPayment();
+                DigitalMail mail = new DigitalMail(baseMail); 
                 digital.HandleOrder(digitalProducts);
+                mail.SetKeys(digitalProducts);
+                mail.Display();
             }
             if (physicalProducts.Count != 0) {
                 PhysicalPayment physical = new PhysicalPayment();
+                PhysicalMail mail = new PhysicalMail(baseMail);
                 physical.HandleOrder(physicalProducts);
+                mail.Display();
             }
            controller.ClearCart();
         }

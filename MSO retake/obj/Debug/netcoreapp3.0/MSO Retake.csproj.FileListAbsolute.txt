@@ -9,3 +9,14 @@ C:\Users\jelte\source\repos\MSO Retake\MSO Retake\bin\Debug\netcoreapp3.0\MSO Re
 C:\Users\jelte\source\repos\MSO Retake\MSO Retake\bin\Debug\netcoreapp3.0\MSO Retake.pdb
 C:\Users\jelte\source\repos\MSO Retake\MSO Retake\obj\Debug\netcoreapp3.0\MSO Retake.dll
 C:\Users\jelte\source\repos\MSO Retake\MSO Retake\obj\Debug\netcoreapp3.0\MSO Retake.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.exe
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.deps.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.runtimeconfig.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.runtimeconfig.dev.json
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.dll
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\bin\Debug\netcoreapp3.0\MSO Retake.pdb
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\obj\Debug\netcoreapp3.0\MSO Retake.csprojAssemblyReference.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\obj\Debug\netcoreapp3.0\MSO Retake.AssemblyInfoInputs.cache
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\obj\Debug\netcoreapp3.0\MSO Retake.AssemblyInfo.cs
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\obj\Debug\netcoreapp3.0\MSO Retake.dll
+C:\Users\jelte\Desktop\MSO\MSO-sytse-jelte\MSO retake\obj\Debug\netcoreapp3.0\MSO Retake.pdb
