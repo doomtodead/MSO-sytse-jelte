@@ -81,7 +81,6 @@ namespace MSO_Retake
 
         public class PhysicalMail : Decorator
         {
-            protected List<string> Keys = new List<string>();
 
             public PhysicalMail(Mail Item) : base(Item)
             {
