@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj": {}
+    "C:\\Users\\jelte\\source\\repos\\MSO Retake\\MSO Retake\\MSO Retake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj": {
+    "C:\\Users\\jelte\\source\\repos\\MSO Retake\\MSO Retake\\MSO Retake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj",
-        "projectName": "mso final project",
-        "projectPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\mso final project.csproj",
+        "projectUniqueName": "C:\\Users\\jelte\\source\\repos\\MSO Retake\\MSO Retake\\MSO Retake.csproj",
+        "projectName": "MSO Retake",
+        "projectPath": "C:\\Users\\jelte\\source\\repos\\MSO Retake\\MSO Retake\\MSO Retake.csproj",
         "packagesPath": "C:\\Users\\jelte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\mso final project\\mso final project\\obj\\",
+        "outputPath": "C:\\Users\\jelte\\source\\repos\\MSO Retake\\MSO Retake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
