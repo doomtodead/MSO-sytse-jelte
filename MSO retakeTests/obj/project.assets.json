@@ -2029,6 +2029,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "MSO Retake/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/MSO Retake.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MSO Retake.dll": {}
+        }
       }
     }
   },
@@ -6862,10 +6872,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "MSO Retake/1.0.0": {
+      "type": "project",
+      "path": "../MSO retake/MSO Retake.csproj",
+      "msbuildProject": "../MSO retake/MSO Retake.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
+      "MSO Retake >= 1.0.0",
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
@@ -6897,7 +6913,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj": {
+              "projectPath": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

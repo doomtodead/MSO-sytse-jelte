@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MSO_Retake
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -42,13 +42,7 @@ namespace MSO_Retake
                         controller.SetTotal();
                         controller.updatePayment(controller.GetTotal());
                         string response3 = Console.ReadLine();
-                        if (response3 == "success")
-                        DoPayment(controller);
-                        else
-                        {
-                            controller.updateError();
-                            continue;
-                        }
+                        SeeIfPaymentWorked(response3, controller);
 
                     } else
                     {
@@ -88,7 +82,7 @@ namespace MSO_Retake
             }
         }
 
-        static void DoPayment(Controller controller)
+        public static void DoPayment(Controller controller)
         {
             List<Product> digitalProducts = new List<Product>();
             List<Product> physicalProducts = new List<Product>();
@@ -118,7 +112,17 @@ namespace MSO_Retake
                 physical.HandleOrder(physicalProducts);
                 mail.Display();
             }
-           controller.ClearCart();
+            controller.ClearCart();
+        }
+
+        public static void SeeIfPaymentWorked(string response,Controller controller)
+        {
+            if (response == "success")
+                DoPayment(controller);
+            else
+            {
+                controller.updateError();
+            }
         }
     }
 }
