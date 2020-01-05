@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj": {}
+    "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retakeTests\\MSO retakeTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj": {
+    "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retakeTests\\MSO retakeTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
-        "projectName": "MSO Retake",
-        "projectPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\MSO Retake.csproj",
-        "packagesPath": "C:\\Users\\jelte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jelte\\Desktop\\MSO\\MSO-sytse-jelte\\MSO retake\\obj\\",
+        "projectUniqueName": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retakeTests\\MSO retakeTests.csproj",
+        "projectName": "MSO retakeTests",
+        "projectPath": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retakeTests\\MSO retakeTests.csproj",
+        "packagesPath": "C:\\Users\\sytse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sytse\\Documents\\GitHub\\MSO-sytse-jelte\\MSO retakeTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sytse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,24 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
